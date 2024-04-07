@@ -138,3 +138,9 @@ avec tout les requierments
                 elif launch=="n" or launch=="close":
                     os.system(clear)
                     break
+
+    elif action[0] == "maj":
+        os.chdir(os.path.join("ES", "test", "sys_apps"))
+        os.system("python maj.py")
+        os.chdir(default_dir)
+        print("mise a jour effectué")

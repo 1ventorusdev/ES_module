@@ -2,7 +2,7 @@ import os
 def execute(arg:list):
     action = arg
     default_dir = os.getcwd()
-    os.chdir(os.path.join("module", "es"))
+    os.chdir(os.path.join("module", "esmodule"))
     loc = os.path.join("ES", "launcher.py")
     if action[0] == "start":
         if os.path.exists(loc):

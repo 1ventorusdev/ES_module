@@ -73,7 +73,7 @@ avec tout les requierments
 
                 fetch_file("https://raw.githubusercontent.com/1ventorusdev/ES/main/launcher.py", "launcher.py")
                 fetch_file("https://raw.githubusercontent.com/1ventorusdev/ES/main/ES.py", "ES.py")
-                fetch_file("https://raw.githubusercontent.com/1ventorusdev/ES/main/version.txt", "version.txt")
+                fetch_file("https://raw.githubusercontent.com/1ventorusdev/ES/main/version.ver", "version.ver")
                 os.system("pip install colorama")
                 os.system("pip install psutil")
                 os.system("pip install wmi")
